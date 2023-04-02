@@ -1,0 +1,145 @@
+body{
+    background:url("./img.jpg");
+    background-size: 100%;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px;
+}
+.home-div{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 30px;
+    width: 30%;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 10px
+}
+.home-title{
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top:2%;
+    display:inline-block;
+    border-radius: 15px;
+    padding: 10px;
+}
+.right-side{
+    margin-right: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.home-div-container{
+    display:flex;
+    justify-content: center;
+}
+
+.home-address{
+    background-color: rgba(0, 0, 0, 0.6);
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;
+    width: 20%;
+    border-radius: 15px;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    }
+    .home-address-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-btn, .menu-btn, .contacts-btn{
+        cursor:pointer;
+        width: 100px;
+        font-size: 15px;
+
+    }
+    .home-btn:hover, .menu-btn:hover, .contacts-btn:hover{
+        font-weight: bold;
+        }
+    .hummus-img{
+        background: url("./hummus.jpg");
+        width: 20rem;
+        height: 20rem;
+        background-size: contain;
+        
+    }
+    .samosas-img {
+        background: url("./samosas.jpg");
+        width: 20rem;
+        height: 20rem;
+        background-size: contain;
+        
+    }
+    .menu-container{
+        display:flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .menu-section-container{
+        display:flex;
+        justify-content: space-around;
+    }
+    .steak-img{
+        background: url("./steak-chichimurri.jpg");
+        width: 20rem;
+        height: 20rem;
+        background-size: contain;
+    }
+    .pepper-img {
+        background: url("./stuffed-peppers.jpeg");
+        width: 20rem;
+        height: 20rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .contacts-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-head{
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .contacts-head-container{
+        display:flex;
+        justify-content: center;
+    }
+    .contacts{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: fit-content;
+        border-radius: 15px;
+        padding: 10px;
+        white-space: pre;
+        font-size: 25px;
+        margin-top:50px;
+    }
